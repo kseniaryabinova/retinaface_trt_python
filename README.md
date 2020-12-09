@@ -17,7 +17,7 @@ python3 convert_to_onnx.py
 # удаляем ненужные слои, которые сгенерил onnx-конвертер
 python3 -m onnxsim retinaface_mobile0.25.onnx retinaface_mobile0.25_smpl.onnx
 ```   
-После конвертации в ONNX переходим в репозиторий с оптимизацией в TRT
+После конвертации в ONNX переходим в [репозиторий с оптимизацией в TRT](https://github.com/kseniaryabinova/retinaface_trt_cpp)
 
 # Как запустить TRT-engine из питона
 
