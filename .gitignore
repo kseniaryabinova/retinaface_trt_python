@@ -1,0 +1,4 @@
+weights
+*.onnx
+.idea
+__pycache__
